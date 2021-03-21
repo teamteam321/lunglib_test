@@ -1,0 +1,19 @@
+{
+  "run_config": {
+    "new_space": 0.75,
+    "thread_num": 4,
+    "input_nifti_path": "/notebooks/VOLUME_sdb_5TB/lidc_0001",
+    "working_dir": "/notebooks/VOLUME_sdb_5TB/_GIT/RUN_new_test5_ordered"
+  },
+  "detection": {
+    "efficientdet_path": "/notebooks/VOLUME_sdb_5TB/efficientdet",
+    "efficientdet_name": "efficientdet-d2",
+    "efficientdet_saved_model_path": "/notebooks/Test_Env/EFF_FINAL_RESULT/final_all_latest/efficientdet-d2_frozen.pb",
+    "summary_confident_theshold": 0.6,
+    "summary_allow_gap ": 3,
+    "summary_min_nodule_length": 3
+  },
+  "segmentation": { "segmentation_model_path": "/notebooks/VOLUME_sdb_5TB/_GIT/Unet_model1.h5" ,
+                    "lung_segmentation_model_path": "/notebooks/VOLUME_sdb_5TB/_GIT/Unet_plus_lung.h5"},
+  "characteristic": { "characteristic_model_path": "/notebooks/Test_Env/STAT_PRED/model/final_model" }
+}
