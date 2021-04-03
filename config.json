@@ -8,7 +8,7 @@
   "detection": {
     "efficientdet_path": "/notebooks/VOLUME_sdb_5TB/efficientdet",
     "efficientdet_name": "efficientdet-d2",
-    "efficientdet_saved_model_path": "/notebooks/Test_Env/EFF_FINAL_RESULT/final_all_latest/efficientdet-d2_frozen.pb",
+    "efficientdet_saved_model_path": "/notebooks/Test_Env/EFF_FINAL_RESULT/saved_model_all/efficientdet-d2_frozen.pb",
     "summary_confident_theshold": 0.6,
     "summary_allow_gap ": 3,
     "summary_min_nodule_length": 3
